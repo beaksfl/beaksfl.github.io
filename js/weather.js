@@ -18,4 +18,4 @@ function onGeoError() {
   alert("Can't find your location");
   api_key.classList.add("hidden");
 }
-//navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
