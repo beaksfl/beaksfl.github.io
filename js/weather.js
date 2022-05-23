@@ -9,13 +9,17 @@ function onGeoOk(position) {
       const city = document.querySelector("#wehater span:last-child");
       city.innerText = data.name;
       weather.innerText = `${data.weather[0].main}/ ${data.main.temp}`;
-      api_key.classList.add("hidden");
+      setAndHide();
     })
   );
 }
 function onGeoError() {
   const newKey = document.createElement("input");
   alert("Can't find your location");
+}
+
+function setAndHide() {
+  localStorage.setItem("api_key", API_KEY);
   api_key.classList.add("hidden");
 }
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
