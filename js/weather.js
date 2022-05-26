@@ -22,4 +22,4 @@ function setAndHide() {
   localStorage.setItem("api_key", API_KEY);
   api_key.classList.add("hidden");
 }
-navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+//navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

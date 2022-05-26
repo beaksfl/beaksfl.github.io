@@ -1,6 +1,7 @@
 .hidden {
   display: none;
 }
+
 body {
   padding-top: 250px;
 }
@@ -9,15 +10,15 @@ body {
   font-size: 150px;
   margin-bottom: 1px;
 }
+
 #login-form {
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #login-form input {
   margin-bottom: 1px;
-  padding-left: 90px;
-  padding-right: 90px;
   padding: 10px;
   border: none;
   text-align: center;
@@ -25,28 +26,24 @@ body {
 
 #greeting {
   text-align: center;
-  margin-top: 1px;
-  font-size: 60px;
+  margin-top: 20px;
+  font-size: 50px;
   margin-bottom: 1px;
 }
 
 #LockSF {
   text-align: center;
-  margin-top: 3px;
-  font-size: 50px;
+  margin-top: 1px;
+  font-size: 70px;
 }
 
 #todo-form {
-  display: grid;
-  place-content: center;
-  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #todo-form input {
-  margin-bottom: 1px;
-  padding: 10px;
-  padding-right: 190px;
-  padding-left: 190px;
   width: 20%;
   border: none;
   text-align: center;
@@ -78,7 +75,7 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 2500px;
-  height: 1190px;
+  width: 2250px;
+  height: 1180px;
   position: absolute;
 }
