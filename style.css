@@ -75,7 +75,8 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 2250px;
-  height: 1180px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
   position: absolute;
 }
