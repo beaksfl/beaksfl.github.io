@@ -25,4 +25,4 @@ function setApi() {
     localStorage.getItem("api_key");
   }
 }
-navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+//navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
