@@ -18,5 +18,5 @@ saying = document.querySelector("#LockSF span:last-child");
 
 const newGame = gameList[Math.floor(Math.random() * gameList.length)];
 
-hand.innerText = newGame.hand;
-saying.innerText = newGame.saying;
+// hand.innerText = newGame.hand;
+// saying.innerText = newGame.saying;
