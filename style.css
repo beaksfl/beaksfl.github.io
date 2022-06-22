@@ -4,6 +4,7 @@
 
 body{
   background-image: url("images/5.jpeg");
+  height: 62vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
